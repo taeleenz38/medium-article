@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.NBA-link {
+  background-image: linear-gradient(blue);
+  background-color: red;
+  color:white;
+  padding: 5px 8px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.NBA-link:hover {
+  background-image: linear-gradient(darkblue);
+  background-color: magenta;
+  color: white;
+
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 390px;
+  }
+}
